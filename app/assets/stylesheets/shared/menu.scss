@@ -4,6 +4,20 @@
   grid-gap: 16px;
 }
 
+.card-category {
+  background-size: cover; /* Ensures the background image covers the full card */
+  background-position: center; /* Centers the image */
+  height: 200px; /* Set a fixed height for consistent appearance */
+  display: flex; /* Use flexbox for content alignment */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  color: white; /* Ensures text is visible over the background */
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 8px; /* Optional: Makes the cards look better */
+  margin: 20px 0;
+}
+
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {
   .cards {
